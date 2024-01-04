@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top center;
+    
+}
+h1{
+    text-align: center;
+}
+.name{
+  margin-top : 120px;
+}
+h2 {
+  font-family: "Montserrat Medium";
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+}
+
+div h2 span {
+  opacity: 0;
+  font-size: 22px;
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+ 
+  
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+   
+
+  }
+  .fa-github{
+    color:#fff;
+    background-color: #4e545a;
+    
+  }
+  .fa-codepen{
+    color:#fff;
+    background-color: #4e545a;
+    
+  }
+  .social-icons{
+    z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: calc(50% - (165px / 2));
+    width: 55px;
+    height: 165px;
+    transition: width 2s linear 1s
+  }
+  .social-icons-edu{
+    z-index: 1001;
+    position: fixed;
+    left: 0;
+    top: calc(50% - (165px / 2));
+    width: 55px;
+    height: 165px;
+    transition: width 2s linear 1s
+  }
+  .social-icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 56px;
+    padding-left: -20px;
+    margin-left: -20px;
+    
+  }
+  .social-icons-edu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 56px;
+    padding-left: -20px;
+    margin-left: -20px;
+    
+  }
+  .social-icons a:hover{
+    width:130px;
+  }
+  .social-icons-edu a:hover{
+    width:130px;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  @media (max-width: 720px)
+{
+.social-icons {
+    display: flex;
+    bottom: -10px;
+    width: 100%;
+    height: auto;
+    top: auto;
+    left: 0;
+    text-align: left;
+}
+
+.social-icons a{
+    height: 52px;
+    width: 50px;
+    padding-left: 22px;
+    margin-left: 14px;
+  }
+}
+
+
+@media (max-width: 992px)
+{
+.social-icons-edu {
+    display: none;
+     }
+}
+ 
+  .topic{
+  margin-top : 65px;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 25px;
+ } 
+ .skills{
+    display: flex;
+ }
+ .skills h4{
+    margin:10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+ }
+ .skills span:hover{
+  width : 6.5rem;
+  height: 1.5rem;
+ }
+ .container .card{
+    margin-bottom: 30px;
+   
+ }
+ .project-details{
+  transform: scale(0.94);
+  animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+ }
+ .card:hover{
+    border :2px black;
+ }
+ .icons{
+  margin: auto;
+ }
+/* .bootImage{
+  position: absolute;
+  left: 300px;
+  bottom: 0px;
+ }
+.reactImage{
+  position: absolute;
+  right: 340px;
+  bottom: 80px;
+} */
+.bootIcon{
+  position: absolute;
+  left: 300px;
+  bottom: 0px;
+ }
+.reactIcon{
+  position: absolute;
+  left: 100px;
+  bottom: 80px;
+}
+.education-details div{
+  margin:10px;
+  
+  transform: scale(0.94);
+  animation: scale 8s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+.education-details div:hover{
+  background-color: #4e545a;
+  color: #fff;
+  }

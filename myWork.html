@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,600;1,700&family=Open+Sans&family=Oxygen&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a href="Portfolio.html" class="navbar-brand" href="#">Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Portfolio.html"
+                    >About Me</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="myWork.html">My Skills and My Works</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Project Details
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">React Project</a></li>
+                    <li><a class="dropdown-item" href="#">Js Projects</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >HTML and CSS Projects</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+        <div class="topic">
+            <h1>Skills and My Project</h1>
+            <div class="skills">
+                <h4><span class="badge bg-secondary">HTML</span></h4>
+                <h4><span class="badge bg-secondary">CSS</span></h4>
+                <h4><span class="badge bg-secondary">JS</span></h4>
+                <h4><span class="badge bg-secondary">BOOTSTRAP</span></h4>
+                <h4><span class="badge bg-secondary">REACT Js</span></h4>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <a href="https://kanimozhi-dharmaraj.github.io/asprcm/" target="_blank">
+                        <img src="images/project-1.png" class="card-img-top" alt="ASPRCM">
+                    </a>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://kanimozhi-dharmaraj.github.io/asprcm/" class="card-link" target="_blank">Demo</a>
+                      <a href="https://github.com/kanimozhi-dharmaraj/asprcm.git" class="card-link" target="_blank">Git link</a>
+                    </div>
+                </div>
+               </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://kanimozhi-dharmaraj.github.io/template-customization/" target="_blank">
+                    <img src="images/project-2.png" class="card-img-top" alt="template-customization">
+                  </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://kanimozhi-dharmaraj.github.io/template-customization/" target="_blank" class="card-link">Demo</a>
+                      <a href="https://github.com/kanimozhi-dharmaraj/template-customization"  target="_blank" class="card-link">Git Link</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <a href="https://kanimozhi-dharmaraj.github.io/cat/" target="_blank">
+                    <img src="images/project-3.png" class="card-img-top" alt="cat">
+                  </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    
+                    <div class="card-body">
+                      <a href="https://kanimozhi-dharmaraj.github.io/cat/" target="_blank" class="card-link">Demo</a>
+                      <a href="https://github.com/kanimozhi-dharmaraj/cat" target="_blank" class="card-link">Git Link</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                          <a href="https://kanimozhi-dharmaraj.github.io/resume-template/" target="_blank">
+                            <img src="images/project-4.png" class="card-img-top" alt="...">
+                          </a>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            
+                            <div class="card-body">
+                              <a href="https://kanimozhi-dharmaraj.github.io/resume-template/" target="_blank" class="card-link">Demo</a>
+                              <a href="https://github.com/kanimozhi-dharmaraj/resume-template" target="_blank" class="card-link">Git Link</a>
+                            </div>
+                          </div>
+                      </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <a href="https://codepen.io/KanimozhiDharmaraj/full/ZEjawEr" target="_blank">
+                        <img src="images/project-5.png" class="card-img-top" alt="...">
+                      </a>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                       
+                        <div class="card-body">
+                          <a href="https://codepen.io/KanimozhiDharmaraj/full/ZEjawEr" target="_blank" card-link">Demo</a>
+                          <a href="https://codepen.io/KanimozhiDharmaraj/pen/ZEjawEr" target="_blank" class="card-link">Code Link</a>
+                        </div>
+                    </div>
+                      
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <a href="https://codepen.io/KanimozhiDharmaraj/full/ExpQOxr" target="_blank">
+                        <img src="images/project-6.png" class="card-img-top" alt="loading">
+                      </a>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        
+                        <div class="card-body">
+                          <a href="https://codepen.io/KanimozhiDharmaraj/full/ExpQOxr" class="card-link">Demo</a>
+                          <a href="https://codepen.io/KanimozhiDharmaraj/pen/ExpQOxr" class="card-link">Code Link</a>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <a href="https://codepen.io/KanimozhiDharmaraj/full/QWBqQJZ" target="_blank">
+                          <img src="images/project-7.png" class="card-img-top" alt="Cricket Game">
+                        </a>
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                          
+                          <div class="card-body">
+                            <a href="https://codepen.io/KanimozhiDharmaraj/full/QWBqQJZ" class="card-link">Demo</a>
+                            <a href="https://codepen.io/KanimozhiDharmaraj/pen/QWBqQJZ" class="card-link">Code Link</a>
+                          </div>
+                        </div>
+                     </div>
+                    
+                  
+                </div>
+            </div>
+    
+    </section>
+  </body>
+</html>
